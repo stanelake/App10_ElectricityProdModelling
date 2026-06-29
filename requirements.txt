@@ -8,3 +8,4 @@ seaborn
 pvlib
 lightgbm
 scikit-learn
+openpyxl
