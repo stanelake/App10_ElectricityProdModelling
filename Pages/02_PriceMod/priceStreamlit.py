@@ -168,7 +168,7 @@ with tab_method:
     st.markdown(
         "To accurately capture these structural dynamics, the spot log-price $\\ln(P_t)$ is modeled as a multi-factor system consisting of "
         "a deterministic seasonal component, an affine mean-reverting continuous volatility diffusion, and a co-jumping error vector:\n\n"
-        "$$\\ln(P_t) = \log U_t + X_t$$"
+        r"$$\\ln(P_t) = \log U_t + X_t$$"
     )
     st.latex(r"dX_t = \kappa (\theta - X_t)dt + \sqrt{V_t} dW_t^s + J_t^s dN_t^s")
     st.latex(r"dV_t = \alpha (\overline{V} - V_t)dt + \sigma \sqrt{V_t} dW_t^v + J_t^v dN_t^v")
