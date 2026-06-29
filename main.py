@@ -58,9 +58,9 @@ import PriceModel2          as pm2
 IS_CALIBRATED = True
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 # ---- Data paths -------------------------------------------------------------
-PRICE_CSV      = "DataSource/Wholesale_Prices/Wholesale_price_trends_20260505202423.csv"
+PRICE_CSV      = os.path.join(CURRENT_DIR,"DataSource","Wholesale_Prices","Wholesale_price_trends_20260505202423.csv")
 #DEMAND_XLSX    = r"DataSource\Kaikohe_Demand_Data\Kaikohe_GXP_8760_Profile-Load.xlsx"
-SOLAR_XLSX     = r"DataSource\Solar_Generation_Data\Results from Simulations.xlsx"
+SOLAR_XLSX     = os.path.join(CURRENT_DIR,"DataSource","Solar_Generation_Data","Results from Simulations.xlsx")
 DEMAND_XLSX    = os.path.join(CURRENT_DIR,"DataSource","Kaikohe_Demand_Data","Kaikohe_GXP_8760_Profile-Load.xlsx")
 # ---- Time step --------------------------------------------------------------
 # All three processes must share a consistent dt.
