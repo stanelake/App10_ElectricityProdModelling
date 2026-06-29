@@ -7,3 +7,4 @@ streamlit
 seaborn
 pvlib
 lightgbm
+scikit-learn
